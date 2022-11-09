@@ -6,5 +6,12 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    
+    s=[]
+    i=0
+    while i<len(data):
+        if data[i].isdigit():
+            s.append(int(data[i]))
+        i+=1
+    return sum(s)
+print(main(open('txt_file/data07.txt').read()))
 # Read data from file
