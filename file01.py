@@ -7,10 +7,9 @@ def main(data:str):
         list: return answer
     """
     list_int = []
-    for i in data:
+    for i in data.split(','):
         list_int.append(int(i))
     return list_int
-f=open('txt_file/data01.txt').read().split(',')
     
-print(main(f))
+print(main(open('txt_file/data01.txt').read()))
 # Read data from file
