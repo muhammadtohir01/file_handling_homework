@@ -10,7 +10,7 @@ def main(data:str):
     list_str = list_data.split(',')
     list_int = []
     for i in list_str:
-        list_int.append(int(i))
+        list_int.append((i))
     
     return list_int
     
