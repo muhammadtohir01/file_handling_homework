@@ -6,5 +6,10 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    
+    d = data.split('\n')
+    s = []
+    for i in d:
+        s.append(len(i))
+    return s
+print(main(open('txt_file/data06.txt').read()))
 # Read data from file
