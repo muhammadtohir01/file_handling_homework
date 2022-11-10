@@ -10,7 +10,5 @@ def main(data:str):
     for i in data:
         sum += 1
     return sum
-
 print(main(open('txt_file/data02.txt').read()))
-
 # Read data from file
